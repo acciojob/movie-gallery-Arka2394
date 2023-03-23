@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  flex: 1 0 16.6667%;
+  margin: 10px;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
